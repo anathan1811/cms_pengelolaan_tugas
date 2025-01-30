@@ -28,6 +28,11 @@ $categories = getAllCategories();
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
     <style>
+        body {
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
         .task-card {
             transition: transform 0.2s;
         }
@@ -67,7 +72,7 @@ $categories = getAllCategories();
         <?php endif; ?>
 
         <div class="row mb-4">
-            <div class="col-md-8">
+            <div class="col-md-8 text-white">
                 <h1 class="h3">Daftar Tugas</h1>
             </div>
             <div class="col-md-4 text-end">
